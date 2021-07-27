@@ -1,0 +1,9 @@
+#img-bg{
+    background-image: url('https://i.pinimg.com/564x/20/82/99/20829949c7ac8847517cdaadf77e671d.jpg');
+
+    min-height: 625px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
