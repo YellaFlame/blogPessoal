@@ -1,5 +1,5 @@
 
-export class Userlogin {
+export class UserLogin {
     public Id: number
     public nome: string
     public usuario: string
