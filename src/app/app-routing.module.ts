@@ -10,7 +10,6 @@ const routes: Routes = [
 
   {path:"entrar", component:EntrarComponent},
   {path:"cadastro", component:CadastroComponent},
-
   {path:"inicio", component:InicioComponent}
 
 ];
