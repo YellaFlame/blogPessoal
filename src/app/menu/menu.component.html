@@ -7,11 +7,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto d-flex align-items-center">
                 <li class="nav-item">
-                    <img src="https://i2.wp.com/narutokonoha.com/wp-content/uploads/2019/10/Imagens-do-anime-Naruto-para-Imprimir-e-Colorir.jpg?w=1280&ssl=1"
-                        alt="Imagem do user" width="50px" height="50px" class="img-fluid rounded-circle">
+                    <img src="{{foto}}"
+                        alt="Imagem do user" class="img-fluid foto-r">
                 </li>
                 <li class="nav-item pl-10">
-                    <p class="m-0 font-weight-bold text-white fs-16">Nome do Usuario</p>
+                    <p class="m-0 font-weight-bold text-white fs-16">Olá, {{nome}}</p>
                 </li>
 
                 <li class="nav-item pl-10 fa-lg">
@@ -23,9 +23,8 @@
         </div>
         <ul class="navbar-nav ml-auto d-flex align-items-center">
             <li class="nav-item fa-lg text-white ">
-                <a class=""> Sair <i class="fas fa-sign-out-alt "></i>
+                <a (click)='sair()'> Sair <i class="fas fa-sign-out-alt "></i>
                 </a>
-                
             </li>
         </ul>
     </div>
